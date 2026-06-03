@@ -1,0 +1,69 @@
+:root {
+  --font-body: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --color-page-bg: #edf2f7;
+  --color-page-bg-deep: #e3e9f1;
+  --color-surface: rgba(255, 255, 255, 0.96);
+  --color-surface-soft: #f6f8fc;
+  --color-surface-strong: #eef3ff;
+  --color-border: #d6deea;
+  --color-border-strong: #c4cfdf;
+  --color-text: #243244;
+  --color-text-strong: #152033;
+  --color-text-muted: #5f6f83;
+  --color-accent: #2f5bdb;
+  --color-accent-strong: #2449b4;
+  --color-accent-soft: #eaf0ff;
+  --color-success: #2f855a;
+  --shadow-panel: 0 20px 45px rgba(18, 33, 56, 0.08);
+  --shadow-button: 0 12px 24px rgba(47, 91, 219, 0.18);
+  --radius-panel: 24px;
+  --radius-control: 14px;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background:
+    linear-gradient(180deg, #fafcff 0%, var(--color-page-bg) 52%, var(--color-page-bg-deep) 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--font-body);
+}
+
+button {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+code {
+  font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono",
+    monospace;
+}
